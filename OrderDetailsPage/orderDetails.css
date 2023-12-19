@@ -12,18 +12,18 @@ nav {
     margin: 10px;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -86,4 +86,33 @@ img {
 
 .user-icons a {
     margin-right: 20px;
+}
+
+main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    background-color: #DDD;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+main #Wimg {
+    padding: 10px 0px 0px 10px;
+}
+
+main .Info {
+    background-color: #333;
+    float: right;
+    width: 70%;
+    margin-top: 10px;
+
+}
+.ItemDetails{
+    border: solid;
+} 
+.ItemDetails ul{
+    margin-left: 10px;
+    list-style-type: circle;
+    padding: 10px;
 }
