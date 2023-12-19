@@ -89,9 +89,7 @@ img {
 }
 
 main {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
+    display: block;
     background-color: #DDD;
     border: 1px solid black;
     border-radius: 5px;
@@ -102,11 +100,12 @@ main #Wimg {
 }
 
 main .Info {
+    display: inline-block;
     background-color: #333;
-    float: right;
-    width: 70%;
-    margin-top: 10px;
-
+    margin-top: 0;
+    padding: 0%;
+    margin-left: 40%;
+    width: fit-content;
 }
 .ItemDetails{
     border: solid;
