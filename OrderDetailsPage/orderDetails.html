@@ -11,45 +11,46 @@
 
 <body>
     <header>
-        <div class="logo">
-            <img src="../assets/onlineShopping-logo.jpg" alt="Your Logo">
-        </div>
+        <div class="FirstBar">
+            <img class="logo" src="../assets/onlineShopping-logo.jpg" alt="Your Logo">
 
-        <div class="search-bar">
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
-        </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
 
-        <div class="user-icons">
-            <a href="../RegistrationPage/signUp.html" id="AccountIco"><img src="../assets/user-icon.png"
-                    alt="User Account"></a>
-            <a href="../ShoppingCartPage/shoppingCart.html"><img src="../assets/shoppingCart-icon.png"
-                    alt="Shopping Cart"></a>
+            <div class="user-icons">
+                <a href="../RegistrationPage/signUp.html" id="AccountIco"><img src="../assets/user-icon.png"
+                        alt="User Account"></a>
+                <a href="../ShoppingCartPage/shoppingCart.html"><img src="../assets/shoppingCart-icon.png"
+                        alt="Shopping Cart"></a>
+            </div>
         </div>
-
+        <nav>
+            <ul>
+                <li><a href="../HomePage/home.html">Home</a></li>
+                <li><a href="../ShoppingCartPage/shoppingCart.html">Cart</a></li>
+                <li><a href="../OrderDetailsPage/orderDetails.html">Offers</a></li>
+                <li><a href="../RegistrationPage/login.html">Account</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="../HomePage/home.html">Home</a></li>
-            <li><a href="../ShoppingCartPage/shoppingCart.html">Cart</a></li>
-            <li><a href="../OrderDetailsPage/orderDetails.html">Offers</a></li>
-            <li><a href="../RegistrationPage/login.html">Account</a></li>
-        </ul>
-    </nav>
     <main>
-        <img id="Wimg" src="../assets/WachProductImage.jpg" alt="product Image">
-
-        <div class="Info">
-            <span>
-                <h2>Smart Watch</h2>
-                <p>hello, This Is A simple Product</p>
+        <div class="info">
+            <img id="Wimg" src="../assets/WachProductImage.jpg" alt="product Image">
+            <div class="Titles">
+                <h1>Classic Watch</h1>
+                <p>Fossil Grant Chronograph Blue Dial Men's Watch FS5151, One Size</p>
                 <p id="rate">Reviews:⭐⭐⭐⭐</p>
                 <p>Prise: $$$$$</p>
-                <p>Stock Quantity: </p>
-            </span>
+                <p>Stock Quantity: 5</p>
+            </div>
         </div>
 
-        <section class="ItemDetails">
+        <button class="btnOrderNow">Order Now!</button>
+
+        <section class="MoreDetails">
+            <caption>More Details:</caption>
             <ul>
                 <li>Color: </li>
                 <li>Size: </li>
@@ -58,10 +59,18 @@
             </ul>
         </section>
 
-        <button>Buy Now!</button>
 
+        <caption>Similar Products</caption>
         <section class="RelatedProducts">
-            <img src="" alt="Small Product Image">
+            <a href="../OrderDetailsPage/orderDetails.html">
+                <img src="../assets/smallProductjpg.jpg" alt="Small Product Image">
+            </a>
+            <a href="../OrderDetailsPage/orderDetails.html">
+                <img src="../assets/smallProductjpg.jpg" alt="Small Product Image">
+            </a>
+            <a href="../OrderDetailsPage/orderDetails.html">
+                <img src="../assets/smallProductjpg.jpg" alt="Small Product Image">
+            </a>
         </section>
     </main>
 </body>
